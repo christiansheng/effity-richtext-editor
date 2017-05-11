@@ -18,11 +18,11 @@ var reserved_tag_ehe_main = [
 var reserved_attr = [
                      "class",								// 保留站内定义的一些属性
                      "href", "src",							// 资源属性
-                     "height", "width",						// 图片宽高属性
+                     "height", "width",							// 图片宽高属性
                      "data-align",							// 图片居中属性
-                     "colspan", "rowspan",					// 表格布局属性
-                     "data-lang", "data-show-number",		// 代码框属性
-                     "data-content", "data-display"			// 数学公式属性
+                     "colspan", "rowspan",						// 表格布局属性
+                     "data-lang", "data-show-number",					// 代码框属性
+                     "data-content", "data-display"					// 数学公式属性
                      ];
 
 /* 保留的类 */

@@ -58,11 +58,11 @@ function ehe_after_paste(t){
 	// 还原光标
 	caret = document.getElementById("caret");
 	range.setEndAfter(caret);
-    range.setStartAfter(caret);
-    var sel = rangy.getSelection();
-    sel.setSingleRange(range);
-    t.focus();
-    $(caret).remove();
+    	range.setStartAfter(caret);
+    	var sel = rangy.getSelection();
+    	sel.setSingleRange(range);
+    	t.focus();
+    	$(caret).remove();
 	
 	// 删除属性（包括样式），但保留以下
 	ehe_remove_attr(t);
